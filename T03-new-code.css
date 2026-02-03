@@ -1,4 +1,4 @@
-.container {
+ .container {
     display: flex;
     gap: 20px;
     padding: 20px;
@@ -46,4 +46,36 @@ body {
     font-family: ui-sans-serif, system-ui, -apple-system, sans-serif;
     line-height: 1.5;
     color: #1e293b;
+}
+nav {
+    background-color: #2d4a44;
+    padding: 10px 0;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 25px; 
+    margin: 0;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+nav a:hover {
+    color: #e67e22; 
+}
+footer {
+    background-color: #2d4a44;
+    color: white;
+    text-align: center;
+    padding: 30px;
+    margin-top: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px; 
+}
+footer a {
+    color: #e67e22;
 }
