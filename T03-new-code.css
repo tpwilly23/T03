@@ -19,9 +19,6 @@ aside {
     border-radius: 8px;
     color: #ffffff;
 }
-aside * {
-    color: #ffffff !important;
-}
 main section {
     margin-bottom:20px;
     padding: 15px;
